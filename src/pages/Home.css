@@ -10,7 +10,7 @@ body{
 
 .title{
     font-family: 'Abril Fatface';
-    color: #947B57;
+    color: #8C7554;
     margin-top: 40px;
     font-size: 50px;
 
@@ -42,10 +42,14 @@ body{
 @media (max-width: 800px) {
     title{
         font-family: 'Abril Fatface';
-        color:pink;
+        color: #8C7554;
         margin-top: 40px;
         font-size: 50px;
     
+    }
+    .ghibli{
+        font-size: 40px;
+        margin-bottom: -70px;
     }
     .other{
         display: flex;
@@ -70,10 +74,14 @@ body{
   @media (max-width: 500px) {
     .title{
         font-family: 'Abril Fatface';
-        color:pink;
+        color: #8C7554;
         margin-top: 40px;
         font-size: 35px;
     
+    }
+    .ghibli{
+        font-size: 35px;
+        margin-bottom: -70px;
     }
     .other{
         display: flex;
