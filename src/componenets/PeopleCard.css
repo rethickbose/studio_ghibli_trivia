@@ -1,0 +1,58 @@
+
+  
+  
+  .peoples {
+    cursor: pointer;
+    background-color: transparent;
+    height: 400px;
+    perspective: 1000px;
+  }
+  .peoples-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  .peoples:hover .peoples-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .peoples-front,
+  .peoples-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  .peoples-front{
+      background-color: lavender;
+      color: seagreen ;
+  }
+  
+  .peoples-back {
+    background-color: aliceblue;
+    color: seagreen ;
+    padding: 20px;
+    transform: rotateY(180deg);
+  }
+  
+  .peoples li {
+    list-style: none;
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+  }
+  
+
+@media (max-width: 800px) {
+    .people {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .people {
+      grid-template-columns: 1fr;
+    }
+  }

@@ -1,0 +1,24 @@
+.people{
+   
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}
+.people-title{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family:'Pacifico', cursive;
+    color: lightcoral
+}
+
+.chara{
+    background-image:
+    linear-gradient(to bottom,rgba(0,0,0,0.7),rgb(0,0,0,0.9)),
+      url("../images/background2.jpg") 
+   ;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    overflow-y: scroll;
+}

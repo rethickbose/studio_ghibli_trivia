@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+}
+
+.container{
+
+    
+}
+
+
+.text{
+
+   
+}
+
+.title{
+    font-family: 'Abril Fatface';
+    color:pink;
+    margin-top: 40px;
+    font-size: 50px;
+
+}
+.other{
+    display: flex;
+
+    justify-content: center;
+    font-size: 30px;
+    font-family: 'Pacifico', cursive;
+    color:#D6B17C
+    
+}
+
+.other2{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 30px;
+    font-family: 'Pacifico', cursive;
+    color:#D6B17C
+    
+}
+
+
+
+
+
+@media (max-width: 800px) {
+    title{
+        font-family: 'Abril Fatface';
+        color:pink;
+        margin-top: 40px;
+        font-size: 50px;
+    
+    }
+    .other{
+        display: flex;
+    
+        justify-content: center;
+        font-size: 15px;
+        font-family: 'Pacifico', cursive;
+        color:#D6B17C
+        
+    }
+    .other2{
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+        font-size: 30px;
+        font-family: 'Pacifico', cursive;
+        color:#D6B17C
+        
+    }
+        
+  }
+  @media (max-width: 500px) {
+    .title{
+        font-family: 'Abril Fatface';
+        color:pink;
+        margin-top: 40px;
+        font-size: 35px;
+    
+    }
+    .other{
+        display: flex;
+    
+        justify-content: center;
+        font-size: 12.5px;
+        font-family: 'Pacifico', cursive;
+        color:#D6B17C
+        
+    }
+    .other2{
+        display: flex;
+        justify-content: center;
+        margin-top: 90px;
+        font-size: 19px;
+        font-family: 'Pacifico', cursive;
+        color:#D6B17C
+        
+    }
+        
+  }
+  
+  
+
+/* background-image:
+    linear-gradient(to bottom,rgba(0,0,0,0.7),rgb(0,0,0,0.9)),
+      url("../images/background2.jpg") 
+   ;
+
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    */
