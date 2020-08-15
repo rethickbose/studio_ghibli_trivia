@@ -20,8 +20,8 @@ const Home = () => {
                 <div className="text">
                           
                     <section className="title">
-                        <h1>
-                        Welcome to the World of <br/>
+                        <h1  >
+                       <div className="ghibli" >Welcome to the World of </div> <br/>
                         <TextLoop
                             springConfig={{ stiffness: 70, damping: 31 }}
                             adjustingSpeed={500}
