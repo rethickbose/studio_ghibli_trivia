@@ -53,6 +53,21 @@ color: lightcoral
         gap: 2rem;
     
     }
+    .vehicle-title{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-family:'Pacifico', cursive;
+        font-size: 35px;
+        color: lightcoral
+        }
+        .species-title{
+            margin-top: 30px;
+        margin-bottom: 30px;
+        font-family:'Pacifico', cursive;
+        font-size: 35px;
+        color: lightcoral
+        
+        }
   }
   
   @media (max-width: 500px) {
@@ -70,4 +85,19 @@ color: lightcoral
         gap: 2rem;
     
     }
+    .vehicle-title{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-family:'Pacifico', cursive;
+        font-size: 22px;
+        color: lightcoral
+        }
+        .species-title{
+            margin-top: 30px;
+        margin-bottom: 30px;
+        font-family:'Pacifico', cursive;
+        font-size: 22px;
+        color: lightcoral
+        
+        }
   }

@@ -27,10 +27,24 @@
     .locations {
       grid-template-columns: repeat(2, 1fr);
     }
+    .locations-title{
+      margin-top: 30px;
+      margin-bottom: 30px;
+      font-family:'Pacifico', cursive;
+      font-size: 35px;
+      color: lightcoral
+  }
   }
   
   @media (max-width: 500px) {
     .locations {
       grid-template-columns: 1fr;
     }
+    .locations-title{
+      margin-top: 30px;
+      margin-bottom: 30px;
+      font-family:'Pacifico', cursive;
+      font-size: 22px;
+      color: lightcoral
+  }
   }

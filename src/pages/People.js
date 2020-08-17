@@ -28,9 +28,9 @@ const People = () => {
                             springConfig={{ stiffness: 70, damping: 31 }}
                             adjustingSpeed={500}
                         >
-                           <h1 className="people-title">Characters in the Studio Ghibli's Universe</h1>
-                           <h1 className="people-title">Characters in Studio Ghibli's Universe</h1>
-                           <h1 className="people-title">Characters in Studio Ghibli's Universe</h1>
+                           <h1 className="people-title">Characters in the Studio Ghibli Universe</h1>
+                           <h1 className="people-title">Characters in the Studio Ghibli Universe</h1>
+                           <h1 className="people-title">Characters in the Studio Ghibli Universe</h1>
                            
                         </TextLoop>{"  "}
                         

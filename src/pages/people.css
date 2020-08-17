@@ -22,3 +22,15 @@
     background-attachment: fixed; 
     overflow-y: scroll;
 }
+@media (max-width: 500px) {
+    .people-title{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-family:'Pacifico', cursive;
+        font-size: 22px;
+        
+        color: lightcoral
+    }
+     
+  }
+  

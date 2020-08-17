@@ -15,10 +15,10 @@ const VehicleCard = ({vehicle}) => {
                                              <strong style={{color:"Teal"}} > Name:</strong> {vehicle.name}
                                          </li>
                                          <li className="director">
-                                                <strong style={{color:"black"}}>classification:</strong> {vehicle.vehicle_class}
+                                                <strong style={{color:"black"}}>Vehicle Class:</strong> {vehicle.vehicle_class}
                                         </li>
                                          <li>
-                                                 <strong style={{color:"black"}} >Eye Colors:</strong> {vehicle.length}
+                                                 <strong style={{color:"black"}} >Length:</strong> {vehicle.length}
                                         </li>
                                  </ul>
                          </div>
@@ -26,10 +26,10 @@ const VehicleCard = ({vehicle}) => {
               
                                  <ul>
                                     <li>
-                                        <strong style={{color:"black"}} >Hair Colors:</strong> {vehicle.description}
+                                        <strong style={{color:"black"}} >description:</strong> {vehicle.description}
                                     </li>
                                     <li>
-                                         <strong style={{color:"black"}} >URL:</strong> {vehicle.pilot}
+                                         <strong style={{color:"black"}} >pilot:</strong> {vehicle.pilot}
                                     </li>
                                     
      
